@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-gray.css">    
+<link rel="stylesheet" href="./index.css">
+<title>Curriculum</title>
+<style>
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("img/fondo.webp") no-repeat center center fixed;
+    background-size: cover;
+    /* filter: invert(100%) grayscale(100%) brightness(40%) ; */
+    z-index: -1; /* Para que quede detrás del contenido */
+}
+body{
+  color: white;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-container a {
+  width: 80%;
+}
+
+.w3-theme-l1:hover {
+  background-color: #493a42 !important;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #ffffff;
+}
+
+.bottom svg {
+  stroke: #ffffff;
+  fill: #ed0000;
+}
+.button-overlay {
+            position: relative;
+            bottom: 10px; /* Posiciona el botón en la parte inferior */
+            left: 50%; /* Centra el botón horizontalmente */
+            transform: translateX(-50%); /* Ajusta el desplazamiento horizontal para que quede centrado */
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+</style>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
+      <div class="bg-image"></div>
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center">
+        <img src="./img/camilo.jpg" class="profile-img w3-margin" alt="image" style="border-radius: 50%;">
+        <p><span class="name w3-padding w3-yellow w3-round" style="font-weight: bolder;">Soy Juan Camilo Ramírez Gonzalez</span></p>
+      </div>
+
+      <div class="links-container">
+        <p style="font-weight: bolder;line-height: 1.8;" class="name w3-padding  w3-round">Barbero con pasión por el detalle y el estilo.
+            Transformo cada corte en una experiencia personalizada, donde la confianza y el cuidado son tan importantes como el resultado.
+            Mi propósito es que cada persona que se sienta en mi silla salga con más seguridad, estilo y actitud.
+            Más que un corte, ofrezco una experiencia que resalta tu mejor versión.
+        </p>
+      </div>
+        <!-- <h4 style="text-align: center; margin-top: 30px;">Mis Proyectos</h4> -->
+      
+      
+    </div>
+      <!-- <p style="font-weight: bolder;text-align: center;">¡Mira mis enlaces!</p> -->
+
+      <!-- <h4 class="margin-top-2" style="text-align: center;">MIS REDES SOCIALES</h4> -->
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+      <div class="w3-container w3-padding-16">
+        <h2 class="w3-center w3-text-light-grey">Matriz DOFA – Marca Personal</h2>
+        <div class="w3-responsive">
+          <table class="dofa-table">
+            <thead>
+              <tr class="w3-theme">
+                <th style="width: 50%">Fortalezas</th>
+                <th>Oportunidades</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>✅ 11 años de experiencia en barbería profesional.</td>
+                <td>🔹 Expansión del mercado de la estética masculina y grooming.</td>
+              </tr>
+              <tr>
+                <td>✅ Estilo definido, pasión por el detalle y autenticidad en el servicio.</td>
+                <td>🔹 Potencial para crear marca personal sólida en Instagram, TikTok y YouTube.</td>
+              </tr>
+              <tr>
+                <td>✅ Buen trato con los clientes y enfoque personalizado: fidelización natural.</td>
+                <td>🔹 Crecimiento del comercio electrónico: productos propios o reservas online.</td>
+              </tr>
+              <tr>
+                <td>✅ Conocimiento de tendencias de barbería moderna y tradicional.</td>
+                <td>🔹 Alianzas con marcas de productos de cuidado masculino o influencers locales.</td>
+              </tr>
+              <tr>
+                <td>✅ Capacidad de adaptarse a diversos perfiles de clientes.</td>
+                <td>🔹 Posibilidad de ofrecer cursos, mentorías o crear contenido educativo.</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr class="w3-theme">
+                <th>Debilidades</th>
+                <th>Amenazas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>🔸 Baja presencia digital o falta de contenido visual de calidad en redes.</td>
+                <td>⚠️ Alta competencia en redes sociales y aparición de nuevos barberos con enfoque digital.</td>
+              </tr>
+              <tr>
+                <td>🔸 Posible dependencia de clientela local o de boca en boca.</td>
+                <td>⚠️ Cambios en hábitos de consumo (más autoservicio o barberías exprés).</td>
+              </tr>
+              <tr>
+                <td>🔸 Falta de estrategias para diferenciarse frente a la competencia en el entorno digital.</td>
+                <td>⚠️ Nuevos competidores.</td>
+              </tr>
+              <tr>
+                <td>🔸 Limitaciones en recursos para expandir o automatizar reservas, pagos, etc.</td>
+                <td>⚠️ Crisis económicas o cambios en el poder adquisitivo local.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <br> <br>
+      <div class="marca-personal">
+        <h2 class="w3-center w3-text-light-grey">🎯 Objetivo de Marca Personal</h2>
+        <p class="w3-padding w3-round" style="font-weight: bolder;line-height: 1.8;">
+            Consolidar mi marca personal como barbero con más de 11 años de experiencia, ofreciendo un servicio auténtico, profesional y personalizado que combine estilo, detalle y confianza, para que cada cliente se sienta reflejado en su mejor versión.
+        </p>
+      </div>
+      <br>
+      <div class="Propuesta-de-Valor">
+        <h2 class="w3-center w3-text-light-grey">💎 Propuesta de Valor</h2>
+        <p class="w3-padding w3-round" style="font-weight: bolder;line-height: 1.8;">
+            Transformo cada visita en un momento especial donde el estilo y el cuidado se unen para renovar tu imagen y confianza. Mi trabajo se basa en entender tus gustos y necesidades para entregarte un servicio personalizado, que va más allá del corte y realza tu presencia diaria.
+        </p>
+      </div>
+      <br>
+      <section class="w3-container w3-padding-32 w3-dark-grey " id="reputacion">
+        <h2 class="w3-center w3-text-light-grey">Lo que dicen mis clientes</h2>
+        
+        <div class="w3-row-padding w3-margin-top">
+      
+          <!-- Testimonio 1 -->
+          <div class="w3-third">
+            <div class="w3-card w3-white w3-padding">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p><em>"Excelente servicio, siempre salgo renovado y con un corte perfecto. Juan Camilo es muy profesional."</em></p>
+              <p><strong>– Sebastian C.</strong></p>
+            </div>
+          </div>
+      
+          <!-- Testimonio 2 -->
+          <div class="w3-third">
+            <div class="w3-card w3-white w3-padding">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p><em>"Camilo es una persona muy humilde de gran corazon dispuesto a ayudar a las personas sin recibir nada a cambio su trabajo es con muy buena dedicacion siempre se concentra al mil dando todo lo mejor de si yo lo recomiendo donde sea y espero siempre Dios lo bendiga"</em></p>
+              <p><strong>– Leonardo A.</strong></p>
+            </div>
+          </div>
+      
+          <!-- Testimonio 3 -->
+          <div class="w3-third">
+            <div class="w3-card w3-white w3-padding">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p><em>"Llevo años confiando en él. Siempre entiende lo que quiero y me hace sentir bien."</em></p>
+              <p><strong>– Luis G.</strong></p>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <div class="container w3-card " >
+        <h2 class="w3-title">📌 Perfil Demográfico del Cliente Ideal de Camilo</h2>
+    
+        <img src="./img/img2.jpg" alt="Perfil demográfico" class="w3-image w3-round" style="width: 100%; height: auto; object-fit: cover;">
+      </div>
+
+      <!-- imagen visual de la marca -->
+      <div class="w3-center">
+        <h2 class="w3-center w3-text-light-grey" style="margin-top: 50px;">📌 Mi Marca Personal</h2>
+        <img src="./img/logo.jpg" alt="Marca personal" class="profile-img w3-image w3-round" style="width: 50%; height: auto; object-fit: cover; margin-top: 50px;">
+      </div>
+      <br><br><br>
+      <div class="container w3-card w3-dark-grey" style="color: white;">
+        <h2>🎯 Plan de acción: marca personal de Juan Camilo</h2>
+      
+        <div class="section">
+          <h3>1. Presencia digital estratégica</h3>
+          <ul>
+            <li>Crear perfiles profesionales en <strong>Instagram, TikTok y Google Mi Negocio</strong>.</li>
+            <li>Publicar contenido constante: antes y después, tips, tendencias.</li>
+            <li>Usar <strong>hashtags geolocalizados</strong>: #BarberíaMedellín, #FadeCali, etc.</li>
+            <li>Optimizar biografía con propuesta de valor y contacto visible.</li>
+          </ul>
+        </div>
+      
+        <div class="section">
+          <h3>2. Posicionamiento de experiencia</h3>
+          <ul>
+            <li>Mostrar los <strong>11 años de trayectoria</strong> en redes y sitio web.</li>
+            <li>Crear un reel contando su historia como barbero.</li>
+            <li>Publicar testimonios de clientes fieles (video o texto).</li>
+            <li>Participar en eventos o ferias locales de barbería.</li>
+          </ul>
+        </div>
+      
+        <div class="section">
+          <h3>3. Promociones inteligentes</h3>
+          <ul>
+            <li>Hacer alianzas con gimnasios, tiendas urbanas o estudios de tatuajes.</li>
+            <li>Ofrecer <strong>combos y descuentos</strong> para universitarios.</li>
+            <li>Promocionar cortes a menor costo los lunes o martes.</li>
+          </ul>
+        </div>
+      
+        <div class="section">
+          <h3>4. Experiencia en el punto de servicio</h3>
+          <ul>
+            <li>Atención personalizada y ambiente cómodo.</li>
+            <li>Ofrecer pequeños detalles: café, música, conversación cordial.</li>
+            <li>Tomar fotos profesionales con permiso del cliente para redes.</li>
+          </ul>
+        </div>
+      
+        <div class="section">
+          <h3>5. Seguimiento y comunidad</h3>
+          <ul>
+            <li>Crear base de datos con WhatsApp de clientes frecuentes.</li>
+            <li>Enviar mensajes con promociones o novedades mensualmente.</li>
+            <li>Pedir reseñas en Google y comentarios en redes sociales.</li>
+          </ul>
+        </div>
+      
+        <div class="section">
+          <h3>6. Contenido de valor</h3>
+          <ul>
+            <li>Publicar tips cortos: cuidado de barba, cómo mantener el corte.</li>
+            <li>Hacer colaboraciones con influencers locales o microinfluencers.</li>
+            <li>Usar frases como: <em>“No es solo un corte, es cómo te sientes al salir.”</em></li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <!-- hoja de vida  -->
+       <br><br>
+      <div class="links-container">
+        <a href="./docs/cv.doc"class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Hoja de vida</a>
+      </div>
+      <!-- mapa de sueños  -->
+
+
+<br><br>
+
+      <p style="font-weight: bolder;text-align: center;">¡Mira mis enlaces!</p>
+
+      <div class="links-container">
+        <br>
+        <a href="https://www.instagram.com/barberiamenpo?igsh=aXgzM2sxMWxvdTQ5" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+        <br>
+        <a href="https://www.tiktok.com/@menpo1507?_t=ZS-8wuUcq6jSim&_r=1" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Tiktok</a>
+        <br>
+       
+      </div>
+
+      <!-- Links section 2. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2" style="text-align: center;">Contacto</h4>
+      <div class="links-container">
+        <br>
+        <a href="tel:+573016898582" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Contactarme</a>
+        <br>
+        <a href="https://wa.me/573016898582?text=Hola,%20quiero%20más%20información" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">WhatsApp</a>
+      </div>
+
+      <!-- Links section 3. Replace the # inside of the "" with your links. -->
+     
+
+      <!-- Bottom section 3 -->
+      <div class="bottom margin-top-2 w3-padding w3-round">
+          <span>Marca Personal Menpo</span>
+      </div>
+
+    </div>
+   
+  </body>  
+</html>

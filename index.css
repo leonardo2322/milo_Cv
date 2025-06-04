@@ -1,0 +1,43 @@
+.profile-img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.dofa-table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #444;
+}
+
+.dofa-table th,
+.dofa-table td {
+  border: 1px solid #555;
+  padding: 12px;
+  text-align: left;
+}
+
+.dofa-table th {
+  background-color: #333333;
+  color: #ffcc00;
+}
+
+.dofa-table tr:hover {
+  background-color: #2a2a2a;
+}
+
+@media (min-width: 768px) {
+  .profile-img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile-img {
+    width: 420px;
+    height: 420px;
+  }
+}
